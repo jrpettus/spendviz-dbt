@@ -4,7 +4,6 @@ with
         select *
         from {{ source("fx_price_data", "sample_fx_view") }}
         where "Symbol" = 'USDEUR'
-        limit 10
 
     ),
 
@@ -15,10 +14,10 @@ with
             "Symbol" as symbol,
             to_date("Date") as fx_date,
             "FixingTime" as fixing_time,
-            "Open" as open_price,
-            "High" as high_price,
-            "Low" as low_price,
-            "Close" as close_price,
+            "Open" as fx_open_price,
+            "High" as fx_high_price,
+            "Low" as fx_low_price,
+            "Close" as fx_close_price
 
         from source
 
