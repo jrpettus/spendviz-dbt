@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: fx_price_data
+    database: fx_price_data
+    schema: public
+    tables:
+      - name: sample_fx_view
