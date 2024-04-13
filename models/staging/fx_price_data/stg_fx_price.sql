@@ -17,7 +17,8 @@ with
             "Open" as fx_open_price,
             "High" as fx_high_price,
             "Low" as fx_low_price,
-            "Close" as fx_close_price
+            "Close" as fx_close_price,
+            (fx_high_price + fx_low_price) / 2 as fx_average_price
 
         from source
 
