@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: procurement_usa
+    database: procure_agent
+    schema: procurement_usa
+    tables:
+      - name: items
+      - name: locations
+      - name: invoice_lines
+      - name: invoice_headers
+      - name: order_lines
+      - name: order_headers
+      - name: suppliers

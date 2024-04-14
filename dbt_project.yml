@@ -40,3 +40,19 @@ models:
     # Applies to all files under models/example/
     example:
       +materialized: table
+
+vars:
+  categories: [
+          'Food & Beverage',
+          'Office Supplies',
+          'Linens & Textiles',
+          'Operating Supplies',
+          'Technology & Equipment',
+          'Maintenance & Repair',
+          'Marketing & Advertising',
+          'Utilities & Services',
+          'Professional Services',
+          'Furniture & Decor',
+          'Health & Wellness',
+          'Food & Beverage Equipment'
+    ]

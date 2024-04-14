@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: procurement_france
+    database: procure_agent
+    schema: procurement_france
+    tables:
+      - name: items
+      - name: invoice_lines
+      - name: invoice_headers
+      - name: order_lines
+      - name: order_headers
+      - name: suppliers
