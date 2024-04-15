@@ -1,0 +1,83 @@
+models:
+  - name: fct_invoice_order_lines
+    description: Consolidated invoice and order lines for all countries converted into USD for BI applications
+    columns:
+      - name: country_origin
+        description: Origin of invoice
+      - name: invoice_number
+        description: Internal invoice number
+        tests:
+          - not_null
+      - name: order_number
+        description: Internal order number
+        tests:
+          - not_null
+      - name: location
+        description: location id
+        tests:
+          - not_null
+      - name: invoice_date
+        description: Date of invoice
+        tests:
+          - not_null
+      - name: supplier_invoice
+        description: supplier invoice number
+      - name: supplier_id
+        description: internal supplier id
+        tests:
+          - not_null
+      - name: order_date
+        description: Date order was placed
+      - name: order_line_number
+        description: order line number
+      - name: item_number
+        description: internal item number
+      - name: supplier_part
+        description: part number from supplier
+      - name: description
+        description: description of invoice line item
+      - name: invoice_price
+        description: price per item
+      - name: invoice_quantity
+        description: quantity purchased
+      - name: invoice_amount
+        description: total invoice amount
+      - name: order_lead_time
+        description: time between order was placed and delivery
+      - name: invoice_price_variance
+        description: price variance of invoice vs order amount
+      - name: currency_conversion
+        description: currency rate
+      - name: invoice_price_usd
+        description: item price in USD
+      - name: invoice_amount_usd
+        description: invoice amount in USD
+        tests:
+          - not_null
+      - name: item_category_or_other
+        description: classified category based on Cortex model
+
+  - name: supplier_metrics
+    description: Creates various metrics for supplier tracking
+    columns:
+      - name: supplier_id
+        description: supplier_id
+      - name: supplier
+        description: supplier_name            
+      - name: primary_category
+        description: primary supplier category based on supplier records             
+      - name: total_spend
+        description: total purchased amount from supplier
+      - name: first_invoice_date
+        description: first date invoiced from supplier
+      - name: most_recent_invoice_date
+        description: most recent date invoiced from supplier             
+      - name: invoice_line_count
+        description: total invoice line count
+      - name: catalog_spend_rate
+        description: percentage of spend with supplier having an internal catalog item out of all spend
+      - name: catalog_transaction_rate
+        description: percentage of invoice lines with supplier having an internal catalog item out of all lines
+      - name: top_category
+        description: top category based on AI Contex classifications
+

@@ -1,0 +1,71 @@
+models:
+  - name: int_fr_invoice_to_order_details
+    description: Combines invoice and order details into a single view
+    columns:
+      - name: country_origin
+        description: Origin of invoice
+        tests:
+          - accepted_values:
+              values: ["FRANCE"]
+      - name: invoice_number
+        description: Internal invoice number
+        tests:
+          - not_null
+      - name: order_number
+        description: Internal order number
+        tests:
+          - not_null
+      - name: location
+        description: Date of invoice
+        tests:
+          - not_null
+      - name: invoice_date
+        description: Date of invoice
+        tests:
+          - not_null
+      - name: supplier_invoice
+        description: Date of invoice
+      - name: supplier_id
+        description: internal supplier id
+        tests:
+          - not_null
+      - name: order_date
+        description: Date order was placed
+      - name: order_line_number
+        description: order line number
+      - name: item_number
+        description: internal item number
+      - name: supplier_part
+        description: part number from supplier
+      - name: description
+        description: description of invoice line item
+      - name: invoice_price
+        description: price per item
+      - name: invoice_quantity
+        description: quantity purchased
+      - name: invoice_amount
+        description: total invoice amount
+      - name: order_lead_time
+        description: time between order was placed and delivery
+      - name: invoice_price_variance
+
+
+  - name: int_fr_unique_order_parts
+    description: Extracts unique parts purchased from invoices since not all parts are items in catalog
+    columns:
+      - name: proxy_part_id
+        description: Unique id of the purchased part based on supplier, part number
+        tests:
+          - unique
+      - name: supplier_id
+        description: Internal supplier id
+        tests:
+          - not_null
+      - name: supplier_part
+        description: supplier part number purchased
+        tests:
+          - not_null
+      - name: item_number
+        description: internal part number where available
+      - name: description
+        description: invoice line description

@@ -1,9 +1,9 @@
 with
     invoice_details as (
-        select * from {{ ref("int_fr_invoice_to_order_details") }} limit 20
+        select * from {{ ref("int_fr_invoice_to_order_details") }}
     ),
 
-    fx_rates as (select * from {{ ref("fill_fx_data") }}),
+    fx_rates as (select * from {{ ref("int_fill_fx_data") }}),
 
     converted as (
         select

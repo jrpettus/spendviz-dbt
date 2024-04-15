@@ -15,7 +15,7 @@ with
             invoice_headers.location,
             invoice_headers.invoice_date,
             invoice_headers.supplier_invoice,
-            order_headers.supplier_id,
+            invoice_headers.supplier_id,
             order_headers.order_date,
             invoice_lines.order_line_number,
             order_lines.item_number,
@@ -24,6 +24,7 @@ with
             invoice_lines.invoice_price,
             invoice_lines.invoice_quantity,
             invoice_lines.invoice_amount,
+            order_lines.is_contracted_item,
             greatest(datediff(day, order_date, invoice_date),0) as order_lead_time,
             invoice_price - order_price as invoice_price_variance
 
@@ -37,7 +38,9 @@ with
         left join
             order_lines
             on order_lines.order_number = order_headers.order_number and order_lines.order_line_number = invoice_lines.order_line_number
+        where invoice_date between '2023-01-01' and '2023-03-31' -- adding this to keep data processing at a minimum
     )
 
 select *
 from merged
+

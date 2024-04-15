@@ -1,0 +1,9 @@
+models:
+  - name: create_dates
+    description: creates a record of each day between various dates using calogica dbt_date package
+
+    columns:
+      - name: date_day
+        description: date coming from dbt_date package with timezone (America/Los Angeles)
+      - name: date_ymd
+        description: date converted into YYYY-MM-DD format

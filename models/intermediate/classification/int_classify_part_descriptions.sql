@@ -4,7 +4,24 @@
 {% set formatted_categories = category_list | map("string") | join(", ") %}
 
 with
-    parts as (select * from {{ ref("int_unique_order_parts") }} limit 10),
+    parts_us as (select * from {{ ref("int_unique_order_parts") }} ),
+    parts_fr as (
+        select
+            proxy_part_id,
+            supplier_id,
+            supplier_part,
+            item_number,
+            description_translated as description
+
+        from {{ ref("int_translate_part_descriptions") }} 
+    ),
+
+    merged as (
+        select *
+        from parts_us
+        union all
+        (select * from parts_fr)
+    ),
 
     classified as (
         select
@@ -14,7 +31,7 @@ with
             item_number,
             description,
             snowflake.cortex.complete(
-                'mistral-7b',
+                'mixtral-8x7b',  -- mistral-7b
                 concat(
                     '
                     You are an expert in classifying invoice descriptions into procurement spend categories.
@@ -27,15 +44,22 @@ with
                     ## FINAL INSTRUCTIONS
                     DO NOT INCLUDE YOUR REASONING EXTRA NOTES, OR PERIODS OR OTHER PUNCTUATION NOT IN THE LIST 
                     JUST SIMPLY PROVIDE THE CATEGORY AND NOTHING ELSE!!!
+                    
+                    Examples:
+                    Erasers premium 50 units - Office Supplies
+                    Hot Beverage Machine - Food & Beverage Equipment
+                    Eco-Friendly Cleaning Supplies - Operating Supplies
 
                     {description}
                     RESPONSE:',
                     description
                 )
-            ) as item_category
+            ) as item_category,
+            {{ check_if_category_else_other("item_category") }}
+            as item_category_or_other
 
-        from parts
-    -- where item_category IS NULL
+        from merged
+
     )
 
 select *
