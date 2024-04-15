@@ -1,0 +1,5 @@
+models:
+  - name: int_consolidated_invoice_orders
+    description: Consolidated invoice and order details
+  - name: int_consolidated_suppliers
+    description: Consolidated suppliers across countries
