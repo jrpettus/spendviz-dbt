@@ -1,0 +1,19 @@
+version: 2
+
+sources:
+  - name: procurement_france
+    database: procure_agent
+    schema: procurement_france
+    tables:
+      - name: items
+        description: Contracted items in the company's catalog
+      - name: invoice_lines
+        description: Line level details from invoices received
+      - name: invoice_headers
+        description: Header level details from invoices received
+      - name: order_lines
+        description: Order line details for purchase orders sent to suppliers
+      - name: order_headers
+        description: Header details for purchase orders sent to suppliers
+      - name: suppliers
+        description: Supplier records

@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: fx_price_data
+    description: Sample FX data coming from Xgnite in the Snowflake Marketplace. Xignite offer two currencies APIs that provide real-time, end-of-day and historical quotes for cryptocurrencies and foreign exchange rates. Note that since the data is sampled we will have some logic to fill in missing dates.
+    database: fx_price_data
+    schema: public
+    tables:
+      - name: sample_fx_view
