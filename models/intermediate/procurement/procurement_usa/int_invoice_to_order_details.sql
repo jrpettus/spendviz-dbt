@@ -9,6 +9,7 @@ with
 
     merged as (
         select
+            'USA' as country_origin,
             invoice_headers.invoice_number,
             invoice_headers.order_number,
             invoice_headers.location,
@@ -21,13 +22,13 @@ with
             invoice_lines.supplier_part,
             invoice_lines.description,
             invoice_lines.invoice_price,
-            order_lines.order_price,
             invoice_lines.invoice_quantity,
-            order_lines.order_quantity,
             invoice_lines.invoice_amount,
-            order_lines.is_contracted_item,
             greatest(datediff(day, order_date, invoice_date),0) as order_lead_time,
-            invoice_price - order_price as invoice_price_variance
+            invoice_price - order_price as invoice_price_variance,
+            1 as currency_conversion,
+            invoice_lines.invoice_price as invoice_price_usd,
+            invoice_lines.invoice_amount as invoice_amount_usd
 
         from invoice_lines
         left join

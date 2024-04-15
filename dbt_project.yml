@@ -56,3 +56,4 @@ vars:
           'Health & Wellness',
           'Food & Beverage Equipment'
     ]
+  "dbt_date:time_zone": "America/Los_Angeles"
