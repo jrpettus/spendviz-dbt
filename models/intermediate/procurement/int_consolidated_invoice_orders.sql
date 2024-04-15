@@ -1,9 +1,9 @@
 with
     france_invoice_details as (
-        select * from {{ "int_convert_fr_invoice_details_to_usd" }}
+        select * from {{ ref("int_convert_fr_invoice_details_to_usd") }}
     ),
-    us_invoice_details as (select * from {{ "int_invoice_to_order_details" }}),
-    categorized_items as (select * from {{ "int_classify_part_descriptions" }}),
+    us_invoice_details as (select * from {{ ref("int_invoice_to_order_details") }}),
+    categorized_items as (select * from {{ ref("int_classify_part_descriptions") }}),
 
     combined as (
         select *
