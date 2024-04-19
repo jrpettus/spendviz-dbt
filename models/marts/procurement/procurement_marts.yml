@@ -1,6 +1,10 @@
+version: 2
+
 models:
   - name: fct_invoice_order_lines
     description: Consolidated invoice and order lines for all countries converted into USD for BI applications
+    docs:
+      node_color: purple
     columns:
       - name: country_origin
         description: Origin of invoice
@@ -59,6 +63,8 @@ models:
 
   - name: supplier_metrics
     description: Creates various metrics for supplier tracking
+    docs:
+      node_color: purple
     columns:
       - name: supplier_id
         description: supplier_id

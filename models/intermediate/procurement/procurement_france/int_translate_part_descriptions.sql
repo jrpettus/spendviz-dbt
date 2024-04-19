@@ -1,4 +1,4 @@
-{{ config(materialized="incremental", unique_key="proxy_part_id") }}
+{{ config(materialized="incremental", unique_key="proxy_part_id", tags=["cortex_enabled"]) }}
 
 with
     parts as (select * from {{ ref("int_fr_unique_order_parts") }}),
@@ -10,6 +10,7 @@ with
             supplier_part,
             item_number,
             description,
+            first_invoice_loaded_at,
             snowflake.cortex.translate(
                 description, 'fr', 'en'
             ) as description_translated
@@ -19,10 +20,5 @@ with
 select *
 from classified
 {% if is_incremental() %}
-    where
-        proxy_part_id not in (
-            select proxy_part_id
-            from {{ this }}
-            where description_translated is not null
-        )
+    where first_invoice_loaded_at > (select max(first_invoice_loaded_at) from {{ this }})
 {% endif %}

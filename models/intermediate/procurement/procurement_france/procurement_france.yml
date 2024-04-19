@@ -69,3 +69,8 @@ models:
         description: internal part number where available
       - name: description
         description: invoice line description
+
+  - name: int_translate_part_descriptions
+    description: translates part descriptions using Snowflake Cortext Translate
+    docs:
+      node_color: red

@@ -11,11 +11,12 @@ with
             supplier_part,
             item_number,
             description,
+            invoice_loaded_at as first_invoice_loaded_at
 
         from order_details
         qualify
             row_number() over (
-                partition by supplier_id, supplier_part order by order_date desc
+                partition by supplier_id, supplier_part order by invoice_loaded_at asc
             )
             = 1
 
