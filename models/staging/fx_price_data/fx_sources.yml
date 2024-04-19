@@ -7,3 +7,10 @@ sources:
     schema: public
     tables:
       - name: sample_fx_view
+        description: Sample FX data coming from Xgnite in the Snowflake Marketplace. Xignite offer two currencies APIs that provide real-time, end-of-day and historical quotes for cryptocurrencies and foreign exchange rates. Note that since the data is sampled we will have some logic to fill in missing dates.
+        columns:
+          - name: symbol
+            description: exchange symbol
+          - name: fx_date
+            description: date of record
+          - name: fx_date

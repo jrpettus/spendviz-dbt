@@ -1,6 +1,8 @@
   models:
   - name: int_classify_part_descriptions
     description: Uses Snowflake Cortex to classify invoice transactions
+    docs:
+      node_color: red
     columns:
       - name: proxy_part_id
         description: Unique id of the purchased part based on supplier, part number

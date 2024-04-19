@@ -1,19 +1,20 @@
-{{ config(materialized="incremental", unique_key="proxy_part_id") }}
+{{ config(materialized="incremental", unique_key="proxy_part_id", tags=["cortex_enabled"]) }}
 
 {% set category_list = var("categories") %}
 {% set formatted_categories = category_list | map("string") | join(", ") %}
 
 with
-    parts_us as (select * from {{ ref("int_unique_order_parts") }} ),
+    parts_us as (select * from {{ ref("int_unique_order_parts") }}),
     parts_fr as (
         select
             proxy_part_id,
             supplier_id,
             supplier_part,
             item_number,
-            description_translated as description
+            description_translated as description,
+            first_invoice_loaded_at
 
-        from {{ ref("int_translate_part_descriptions") }} 
+        from {{ ref("int_translate_part_descriptions") }}
     ),
 
     merged as (
@@ -30,6 +31,7 @@ with
             supplier_part,
             item_number,
             description,
+            first_invoice_loaded_at,
             snowflake.cortex.complete(
                 'mixtral-8x7b',  -- mistral-7b
                 concat(
@@ -66,6 +68,5 @@ select *
 from classified
 {% if is_incremental() %}
     where
-        proxy_part_id
-        not in (select proxy_part_id from {{ this }} where item_category is not null)
+        first_invoice_loaded_at > (select max(first_invoice_loaded_at) from {{ this }})
 {% endif %}

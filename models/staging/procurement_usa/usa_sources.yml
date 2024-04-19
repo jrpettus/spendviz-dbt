@@ -1,5 +1,3 @@
-version: 2
-
 sources:
   - name: procurement_usa
     description: Contains the various procurement tables for the USA ERP system
@@ -22,3 +20,10 @@ sources:
         description: Suppliers records
       - name: contracts
         description: Contracts with suppliers
+  - name: procurement_contracts
+    description: Contains the contract metadata loaded into stage
+    database: procure_agent
+    schema: public
+    tables:
+      - name: contracts_meta
+        description: metadata for contracts loaded into the stage

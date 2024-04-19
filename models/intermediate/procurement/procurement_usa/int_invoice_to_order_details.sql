@@ -25,23 +25,24 @@ with
             invoice_lines.invoice_quantity,
             invoice_lines.invoice_amount,
             order_lines.is_contracted_item,
-            greatest(datediff(day, order_date, invoice_date),0) as order_lead_time,
+            greatest(datediff(day, order_date, invoice_date), 0) as order_lead_time,
             invoice_price - order_price as invoice_price_variance,
+            invoice_headers.loaded_at as invoice_loaded_at,
             1 as currency_conversion,
             invoice_lines.invoice_price as invoice_price_usd,
-            invoice_lines.invoice_amount as invoice_amount_usd
+            invoice_lines.invoice_amount as invoice_amount_usd,
 
         from invoice_lines
         left join
             invoice_headers
             on invoice_headers.invoice_number = invoice_lines.invoice_number
         left join
-            order_headers
-            on order_headers.order_number = invoice_headers.order_number
+            order_headers on order_headers.order_number = invoice_headers.order_number
         left join
             order_lines
-            on order_lines.order_number = order_headers.order_number and order_lines.order_line_number = invoice_lines.order_line_number
-        where invoice_date between '2023-01-01' and '2023-03-31' -- adding this to keep data processing at a minimum
+            on order_lines.order_number = order_headers.order_number
+            and order_lines.order_line_number = invoice_lines.order_line_number
+        where invoice_date between '2023-01-01' and '2023-02-01'  -- adding this to keep data processing at a minimum
     )
 
 select *
