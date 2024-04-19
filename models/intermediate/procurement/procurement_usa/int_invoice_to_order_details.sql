@@ -26,7 +26,7 @@ with
             invoice_lines.invoice_amount,
             order_lines.is_contracted_item,
             greatest(datediff(day, order_date, invoice_date), 0) as order_lead_time,
-            invoice_price - order_price as invoice_price_variance,
+            round(invoice_price - order_price,2) as invoice_price_variance,
             invoice_headers.loaded_at as invoice_loaded_at,
             1 as currency_conversion,
             invoice_lines.invoice_price as invoice_price_usd,

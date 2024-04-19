@@ -15,6 +15,8 @@ with
     categorized as (
         select 
             combined.*,
+            categorized_items.description as description_english,
+            item_category,
             item_category_or_other
         from combined
         left join

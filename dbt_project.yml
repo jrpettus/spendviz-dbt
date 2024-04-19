@@ -38,9 +38,9 @@ clean-targets:         # directories to be removed by `dbt clean`
 
 models:
   spendviz:
-    # Applies to all files under models/example/
-    #example:
-    #  +materialized: table
+    marts:
+        # materialize all models in models/events as tables
+        +materialized: table
 
 
 vars:
