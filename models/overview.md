@@ -22,6 +22,6 @@ This project contains the following key flows:
    1. **Supplier Metrics** Provides a view for every supplier in the system including key metrics and contract terms
 
 
-![cortex_complete](assets/cortex_complete.png "Cortex Complete")
+![Item Classification with Cortex](https://github.com/jrpettus/spendviz-dbt/blob/main/assets/Cortex%20Item%20Classification.jpg)
 
 {% enddocs %}
