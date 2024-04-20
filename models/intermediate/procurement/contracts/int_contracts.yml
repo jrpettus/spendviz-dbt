@@ -1,0 +1,13 @@
+models:
+  - name: int_contracts_extract_terms
+    description: Extracts terms from contracts
+    docs:
+      node_color: red
+
+  - name: int_contracts_load_into_vectordb
+    description: Loads contracts into the vector database
+    docs:
+      node_color: red
+
+  - name: int_contracts_meta_to_supplier_ids
+    description: joins contracts to suppliers to provide appropriate id since this is missing from the contract source
