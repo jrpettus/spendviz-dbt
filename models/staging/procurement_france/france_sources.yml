@@ -5,8 +5,6 @@ sources:
     database: procure_agent
     schema: procurement_france
     tables:
-      - name: items
-        description: Contracted items in the company's catalog
       - name: invoice_lines
         description: Line level details from invoices received
       - name: invoice_headers
