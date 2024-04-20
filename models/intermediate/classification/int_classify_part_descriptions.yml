@@ -2,7 +2,7 @@ version: 2
 
 models:
 - name: int_classify_part_descriptions
-  description: "![Cortex Complete Classification](https://github.com/jrpettus/spendviz-dbt/blob/main/assets/cortex_complete.png)"
+  description: "![Cortex Complete Classification](https://github.com/jrpettus/spendviz-dbt/blob/main/assets/Cortex%20Item%20Classification.jpg)"
   docs:
     node_color: red
   columns:
