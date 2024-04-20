@@ -41,7 +41,12 @@ models:
     marts:
         # materialize all models in models/events as tables
         +materialized: table
-
+        +docs:
+          node_color: purple
+    staging:
+        # materialize all models in models/events as tables
+        +docs:
+          node_color: orange
 
 vars:
   categories: [
