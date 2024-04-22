@@ -11,8 +11,10 @@ with
 
     -- load the contract if it isn't there yet
     processed as (
-        select *, procure_agent.public.load_documents(file_name) as contract_load_status,
-        current_timestamp() as processed_at
+        select
+            *,
+            procure_agent.public.load_documents(file_name) as contract_load_status,
+            current_timestamp() as processed_at
         from contracts
     )
 
