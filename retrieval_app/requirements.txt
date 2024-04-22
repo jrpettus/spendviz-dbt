@@ -1,0 +1,10 @@
+fastapi==0.110.1
+uvicorn==0.29.0
+weaviate-client==3.26
+pydantic==2.7.0
+snowflake-snowpark-python==1.14.0
+langchain==0.1.13
+langchain-core==0.1.42
+langchain-text-splitters==0.0.1
+python-dotenv
+
