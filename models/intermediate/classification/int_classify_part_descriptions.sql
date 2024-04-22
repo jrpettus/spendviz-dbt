@@ -1,4 +1,10 @@
-{{ config(materialized="incremental", unique_key="proxy_part_id", tags=["cortex_enabled"]) }}
+{{
+    config(
+        materialized="incremental",
+        unique_key="proxy_part_id",
+        tags=["cortex_enabled"],
+    )
+}}
 
 {% set category_list = var("categories") %}
 {% set formatted_categories = category_list | map("string") | join(", ") %}
@@ -21,7 +27,8 @@ with
         select *
         from parts_us
         union all
-        (select * from parts_fr)
+        (select * 
+        from parts_fr)
     ),
 
     classified as (

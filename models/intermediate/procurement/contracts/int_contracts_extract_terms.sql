@@ -14,7 +14,7 @@ with
             *,
             replace(
                 snowflake.cortex.complete(
-                    'mistral-7b',  -- 'mixtral-8x7b',  -- mistral-7b
+                    'mistral-large',  -- 'mixtral-8x7b',  -- mistral-7b
                     concat(
                         '
                     You are an expert in reading supplier contracts and classifying payment terms. Examine the relevant text. Provide a result. If not relevant terms are found just say "None"
@@ -25,14 +25,41 @@ with
                     ',
                         procure_agent.public.retrieve_context(
                             concat(
-                                'what are the payment term discounts', ' | ', supplier_name
+                                'what are the payment term discounts',
+                                ' | ',
+                                supplier_name
                             )
                         )
                     )
                 ),
                 '.',
                 ''
-            ) as payment_term_extract
+            ) as payment_term_extract,
+            trim(
+                snowflake.cortex.complete(
+                    'mistral-large',  -- 'mixtral-8x7b',  -- mistral-7b
+                    concat(
+                        '
+                    You are an expert in reading supplier contracts. Identify if there are any rebate terms offered in the contract.
+                    If not just say "None" with NO PERIOD OR PUNCTUATION!!!!
+                    Keep your response brief and do note provide REASONING OR EXPLANATION.
+                    Example Outputs: 2% after exeeding $500,000 in annual spend
+
+                    {description}
+                    ',
+                        procure_agent.public.retrieve_context(
+                            concat(
+                                'What are the rebate offerings for the supplier?',
+                                ' | ',
+                                supplier_name
+                            )
+                        )
+                    )
+                )
+            ) as offered_rebates,
+            iff(
+                contains(offered_rebates, 'None') = true, false, true
+            ) as supplier_has_rebate
         from contracts
 
     )
@@ -40,5 +67,5 @@ with
 select *
 from processed
 {% if is_incremental() %}
-    where processed_time > (select max(processed_time) from {{ this }})
+    where processed_at > (select max(processed_at) from {{ this }})
 {% endif %}

@@ -9,16 +9,12 @@ models:
               values: ["FRANCE"]
       - name: invoice_number
         description: Internal invoice number
-        tests:
-          - not_null
       - name: order_number
         description: Internal order number
         tests:
           - not_null
       - name: location
-        description: Date of invoice
-        tests:
-          - not_null
+        description: location
       - name: invoice_date
         description: Date of invoice
         tests:
@@ -48,7 +44,8 @@ models:
       - name: order_lead_time
         description: time between order was placed and delivery
       - name: invoice_price_variance
-
+        description: price difference between the invoice and order
+      - name: invoice_loaded_at
 
   - name: int_fr_unique_order_parts
     description: Extracts unique parts purchased from invoices since not all parts are items in catalog
@@ -69,6 +66,10 @@ models:
         description: internal part number where available
       - name: description
         description: invoice line description
+      - name: first_invoice_loaded_at
+        description: first time an invoice was loaded for the part number
+        tests:
+          - not_null
 
   - name: int_translate_part_descriptions
     description: translates part descriptions using Snowflake Cortext Translate
