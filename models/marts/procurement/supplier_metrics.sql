@@ -54,9 +54,7 @@ with
             catalog_transaction_rate,
             top_category_by_supplier.item_category_or_other as top_category,
             iff(contracts.supplier_id is null, false, true) as has_contract,
-            contracts.payment_term_extract as payment_terms,
-            contracts.offered_rebates,
-            contracts.supplier_has_rebate
+            contracts.payment_term_extract as payment_terms
         from suppliers
         left join
             metrics_by_supplier
@@ -69,3 +67,4 @@ with
 
 select *
 from merged
+where top_category is not null

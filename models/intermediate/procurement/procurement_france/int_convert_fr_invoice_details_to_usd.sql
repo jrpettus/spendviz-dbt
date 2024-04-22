@@ -7,25 +7,7 @@ with
 
     converted as (
         select
-            country_origin,
-            invoice_number,
-            order_number,
-            location,
-            invoice_date,
-            supplier_invoice,
-            supplier_id,
-            order_date,
-            order_line_number,
-            item_number,
-            supplier_part,
-            description,
-            invoice_price,
-            invoice_quantity,
-            invoice_amount,
-            is_contracted_item,
-            order_lead_time,
-            invoice_price_variance,
-            invoice_loaded_at,
+            invoice_details.*,
             fx_average_price_adj as currency_conversion,
             round(
                 {{ convert_euro_to_usd("invoice_price", "fx_average_price_adj") }}, 2
