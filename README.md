@@ -48,6 +48,6 @@ This project contains the following key flows:
 - Key concepts from large unstructured documents turned into structured outputs for actionable supplier insights
 - dbt efficiently orchestrates the data workflow to facilitate retrieval augmented generation
 
-<img src="https://github.com/jrpettus/spendviz-dbt/blob/main/dbt/assets/RAG.jpg" width=60% height=60% >
+<img src="https://github.com/jrpettus/spendviz-dbt/blob/main/dbt/assets/RAG.jpg" width=67% height=67% >
 
 
