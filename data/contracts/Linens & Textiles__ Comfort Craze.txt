@@ -1,0 +1,33 @@
+**Contract Agreement for Supply of Linens & Textiles**
+
+**This Contract Agreement** (*"Agreement"*) is made effective as of September 15, 2022, by and between **Luxury Resort Brands** (*"the Purchaser"*) and **Textile Treasures, Classy Comforts, Cotton Cove** (*collectively referred to as "the Supplier"*).
+
+**Purpose:** The purpose of this Agreement is to establish the terms and conditions under which the Supplier will provide luxury linens and textiles to the Purchaser.
+
+### 1. Goods and Services
+
+The Supplier agrees to provide premium linens and textiles, including but not limited to bed sheets, pillowcases, towels, bathrobes, and table linens (*"Goods"*) to Luxury Resort Brands. These Goods shall meet the quality standards as required by the Purchaser for luxury resort accommodations.
+
+### 2. Pricing and Payment Terms
+
+- **Pricing:** The Purchaser agrees to purchase Goods at the prices agreed upon in the initial order document, subject to adjustments for any future orders.
+  
+- **Payment Terms:** Payment shall be due within thirty (30) days following the receipt of the invoice from the Supplier. Late payments may incur late fees at a rate of 2% per month on the outstanding balance.
+
+### 3. Delivery and Acceptance
+
+- **Delivery:** The Supplier is responsible for delivering the Goods to the location specified by the Purchaser within the time frame agreed upon for each order.
+  
+- **Acceptance:** The Purchaser shall inspect the Goods upon delivery. If the Goods are found to be defective or not in accordance with the specifications agreed upon, the Purchaser reserves the right to reject the Goods.
+
+### 4. Term and Termination
+
+This Agreement will commence on the date hereof and shall continue in effect until December 31, 2023, unless terminated earlier by either party with a thirty (30) days written notice.
+
+### 5. General Provisions
+
+- **Force Majeure:** Neither party shall be liable for any failure to perform its obligations if such failure is caused by circumstances beyond reasonable control.
+  
+- **Governing Law:** This Agreement shall be governed by and construed in accordance with the laws of the jurisdiction in which the Purchaser operates.
+
+Given the strength rating of 2, this contract touches on a few critical components; however, it lacks depth in specific contractual requirements for linens and textiles, performance metrics, SLAs, rebates for spend thresholds, incentives, specific terms and conditions, guarantees, warranties, and detailed contract extensions. Further negotiations and revisions would be required to secure a more comprehensive agreement.

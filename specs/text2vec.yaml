@@ -1,0 +1,17 @@
+spec:
+    containers:
+    - name: "text2vec"
+      image: "#####-#####.registry.snowflakecomputing.com/<database>/<schema>/<spec_repo>/<name>"
+      env:
+        ENABLE_CUDA: 1
+        NVIDIA_VISIBLE_DEVICES : all
+      resources:
+        limits:
+          memory: 32G
+          nvidia.com/gpu: 1
+        requests:
+          memory: 30G
+          nvidia.com/gpu: 1
+    endpoints:
+    - name: "text2vec"
+      port: 8080

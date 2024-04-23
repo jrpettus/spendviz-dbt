@@ -1,0 +1,73 @@
+**Contract Agreement Between Luxury Resort Brands and TechGen, Quantum Equipment Solutions, EquipEvolve, TechDesigns**
+
+**Effective Date:** January 1st, 2023
+
+### 1. Purpose and Scope
+
+This contract establishes the terms and conditions under which Luxury Resort Brands (hereinafter referred to as "Client") agrees to purchase technology and equipment from TechGen, Quantum Equipment Solutions, EquipEvolve, and TechDesigns (hereinafter collectively referred to as "Suppliers"). The goods and services provided by the Suppliers will support the Client's operational infrastructure, including but not limited to, IT hardware, network devices, audio-visual systems, and Smart Hospitality solutions.
+
+### 2. Contract Terms
+
+This contract shall be effective for a period of 24 months from the Effective Date, subject to terms of renewal and termination as herein provided.
+
+### 3. Rebates and Incentives
+
+- Suppliers agree to provide a rebate of 2% on annual spend exceeding $500,000.
+- Incentives for early contract renewal include a discount rate of 5% on orders placed 90 days before the renewal date.
+
+### 4. Performance Metrics and Service Level Agreements (SLAs)
+
+- Suppliers must ensure a delivery accuracy of 98% on all orders, with corrective action plans for any deviations.
+- Response time for service and repair requests shall not exceed 24 hours.
+- Annual uptime guarantee for provided technology and equipment must be at least 99.5%.
+
+### 5. Payment Terms
+
+- Standard payment terms are net 45 days after receipt of invoice or delivery of goods/services, whichever is later.
+- Any overdue payments are subject to a late payment fee of 1.5% per month.
+
+### 6. Delivery and Installation
+
+- Suppliers are responsible for the delivery and, where applicable, the installation of technology and equipment within 30 days of order placement.
+- Advance notice of delivery schedule is required at least 7 days before the expected delivery date.
+
+### 7. Key Contractual Requirements
+
+- For IT hardware and network devices, Suppliers must provide comprehensive training to Client's staff upon installation.
+- Audio-visual systems require a demonstration of functionality to Client's satisfaction post-installation.
+
+### 8. Guarantees and Warranties
+
+- All goods and services provided shall come with a minimum warranty period of 12 months, covering defects in materials and workmanship.
+- Extended warranties are available upon request, subject to additional terms and fees.
+
+### 9. Contract Extensions
+
+- This contract allows for negotiation of extension terms 90 days prior to the expiry date.
+- Any amendments or extensions must be mutually agreed upon in writing.
+
+### 10. Terms and Conditions
+
+- Suppliers agree to comply with all applicable laws, regulations, and ethical standards pertaining to their operations and the provision of goods and services.
+- Confidentiality of all Client data must be strictly maintained, with adequate security measures in place to prevent unauthorized access.
+
+By signing this contract, both parties agree to the terms and conditions set forth above, committing to a collaborative and prosperous business relationship.
+
+**Luxury Resort Brands**  
+Signature: __________________________ Date: _______________
+
+**TechGen**  
+Signature: __________________________ Date: _______________
+
+**Quantum Equipment Solutions**  
+Signature: __________________________ Date: _______________
+
+**EquipEvolve**  
+Signature: __________________________ Date: _______________
+
+**TechDesigns**  
+Signature: __________________________ Date: _______________
+
+---
+
+This contract has been drafted considering a strength score of 4, thereby including significant strategic sourcing elements such as rebates, incentives, SLAs, payment terms, delivery expectations, key requirements for technology equipment, warranties, and provisions for contract extensions. Some finer aspects such as specific penalty clauses for SLA breaches and detailed audit rights may not be fully elaborated, keeping in view the balance required for a strength score of 4.

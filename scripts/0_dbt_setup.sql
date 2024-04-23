@@ -1,0 +1,43 @@
+-- create a role that dbt will use
+-- note if you set up via Snowflake market place you can use the defaults there and this simplifies the setup
+-- also need access to Snowflake marketplace
+
+
+USE ROLE SECURITYADMIN;
+CREATE ROLE PROCURE_ROLE;
+
+USE ROLE SYSADMIN;
+CREATE DATABASE IF NOT EXISTS PROCURE_AGENT;
+
+-- procure Warehouse --
+USE ROLE SYSADMIN;
+CREATE OR REPLACE WAREHOUSE PROCURE_WAREHOUSE WITH
+  WAREHOUSE_SIZE='X-SMALL'
+  AUTO_SUSPEND = 180
+  AUTO_RESUME = true
+  INITIALLY_SUSPENDED=true;
+
+-- procure User --
+USE ROLE USERADMIN;
+CREATE USER procure_user
+  PASSWORD='##############' // set to your password here
+  DEFAULT_ROLE = PROCURE_ROLE
+  DEFAULT_SECONDARY_ROLES = ('ALL')
+  MUST_CHANGE_PASSWORD = FALSE;
+
+-- Grant Role to User --
+USE ROLE SECURITYADMIN;
+grant usage on database PROCURE_AGENT  to role PROCURE_ROLE;
+GRANT ROLE PROCURE_ROLE TO USER procure_user;
+
+
+-- Grant cortex access
+USE ROLE ACCOUNTADMIN;
+USE DATABASE SNOWFLAKE;
+
+GRANT DATABASE ROLE CORTEX_USER TO ROLE PROCURE_ROLE;
+
+-- CREATE AN EXTRA SMALL WAREHOUSE FOR DBT
+USE ROLE SYSADMIN;
+CREATE WAREHOUSE WH_DBT_XS WITH WAREHOUSE_SIZE = 'X-SMALL';
+GRANT ALL ON WAREHOUSE WH_DBT_XS TO ROLE PROCURE_ROLE;

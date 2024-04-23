@@ -1,0 +1,68 @@
+
+Food and Beverage Supply Contract
+This Food and Beverage Supply Contract ("Contract") is made and entered into on this 15th day of July 2023, by and between USA Food Co., a company organized and existing under the laws of the State of Illinois, United States, with its principal place of business located at 789 Culinary Drive, Chicago, IL 60607, hereinafter referred to as the "Supplier", and Luxury Hotel Group, a company organized and existing under the laws of the State of California, United States, with its principal place of business located at 456 Hospitality Lane, Los Angeles, CA 90015, hereinafter referred to as the "Buyer".
+
+WHEREAS, the Supplier specializes in the provision of high-quality food and beverage products;
+
+WHEREAS, the Buyer operates luxury hotels and resorts across the United States and seeks to procure food and beverage products for its operations;
+
+NOW, THEREFORE, in consideration of the mutual covenants and agreements herein contained, the parties hereto agree as follows:
+
+Products and Services: The Supplier agrees to sell, and the Buyer agrees to purchase, the food and beverage products described in Exhibit A attached hereto and made a part hereof, under the terms and conditions set forth in this Contract.
+
+Order Process:
+
+The Buyer shall issue purchase orders specifying the types and quantities of products to be delivered and the requested delivery dates.
+Each purchase order issued by the Buyer and accepted by the Supplier shall be governed by the terms and conditions of this Contract.
+Pricing, Discounts, and Rebates:
+
+The prices for the products are as set forth in Exhibit A. These prices shall be fixed for the term of this Contract.
+Volume Discounts:
+A 5% discount on individual orders exceeding $5,000.
+A 10% discount on individual orders exceeding $10,000.
+Annual Spend Rebates:
+A rebate of 3% on total annual spend exceeding $150,000.
+A rebate of 7% on total annual spend exceeding $300,000.
+Payment Terms:
+
+Payment shall be due 45 days from the invoice date for each purchase order.
+Payments shall be made in US dollars via bank transfer to an account specified by the Supplier.
+Late payments shall incur a late fee of 2% per month on the outstanding balance.
+Delivery and Acceptance:
+
+The Supplier shall deliver the products to the locations specified by the Buyer in accordance with the delivery terms specified in each purchase order.
+The Buyer shall inspect the products within 7 days of receipt. Acceptance of the products shall occur after the completion of the inspection unless the Buyer notifies the Supplier of any non-conforming products.
+Term and Termination:
+
+This Contract shall commence on the date hereof and shall continue in effect until two years from the date hereof unless earlier terminated in accordance with the provisions of this Contract.
+Either party may terminate this Contract upon 60 days written notice to the other party.
+Governing Law: This Contract shall be governed by and construed in accordance with the laws of the State of Illinois, without regard to its conflict of laws principles.
+
+Dispute Resolution: Any disputes arising out of or in connection with this Contract shall be resolved through arbitration in accordance with the rules of the American Arbitration Association.
+
+IN WITNESS WHEREOF, the parties hereto have caused this Contract to be executed by their duly authorized representatives as of the date first above written.
+
+USA Food Co.
+
+By: ____________________________
+
+Name:
+
+Title:
+
+Date:
+
+Luxury Hotel Group
+
+By: ____________________________
+
+Name:
+
+Title:
+
+Date:
+
+Exhibit A: Product Descriptions, Pricing, Volume Discounts, and Annual Spend Rebates
+
+(Attach detailed product descriptions, item numbers, prices, volume discounts, annual spend rebate schedules, and any other relevant information)
+

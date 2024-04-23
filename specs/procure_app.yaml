@@ -1,0 +1,16 @@
+spec:
+  containers:
+    - name: procure-agent-app
+      image: "#####-#####.registry.snowflakecomputing.com/<database>/<schema>/<spec_repo>/<name>"
+      env:
+        SNOW_ROLE: ######
+        SNOW_WAREHOUSE: ######
+        SNOW_ACCOUNT: ######
+        SNOW_DATABASE: ######
+        SNOW_SCHEMA: ######
+        SNOW_USER: ######
+        SNOW_PASSWORD: ######
+  endpoints:
+    - name: procure-agent-app
+      port: 8501
+      public: true

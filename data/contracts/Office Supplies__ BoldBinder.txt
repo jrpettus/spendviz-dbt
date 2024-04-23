@@ -1,0 +1,91 @@
+# Contract for the Provision of Office Supplies
+
+### BETWEEN: Luxury Resort Brands ("the Buyer")
+### AND: ClassicDeskSupplies, Desk Dynasty, LuxeDeskSupplies, BoldBinder ("the Suppliers")
+### DATE: March 15, 2023
+
+---
+
+This agreement is designed to establish a comprehensive relationship between Luxury Resort Brands and the Suppliers for the provision of office supplies, as outlined below, under the following terms.
+
+### 1. SCOPE OF GOODS AND SERVICES
+
+The Suppliers will provide a range of office supplies, including, but not limited to:
+
+- Stationery (including branded and luxury options)
+- Office furniture and ergonomic solutions
+- Organizational tools (binders, folders, desk organizers)
+- Technology accessories (keyboard, mouse pads, laptop stands)
+- Customized office products for brand alignment
+
+### 2. CONTRACT TERMS
+
+This contract will commence on April 1, 2023, and will remain in effect until March 31, 2024, subject to renewal based on performance evaluation and mutual agreement.
+
+### 3. REBATES AND INCENTIVES
+
+- The Suppliers will provide a 5% rebate once Luxury Resort Brands reaches a spend threshold of $50,000 within a fiscal year.
+- An additional 1% rebate will be applied for every $10,000 spent above the initial threshold.
+
+### 4. PERFORMANCE METRICS AND SLAs
+
+- Delivery accuracy must be 98% or above.
+- Order fulfillment time should not exceed 48 hours for in-stock items.
+- Quality compliance rate must be 95% or above, ensuring goods are free from defects.
+- Customer service response time should not exceed 24 hours.
+
+### 5. PAYMENT TERMS
+
+- Payment terms will be net 30 days from the invoice date.
+- Early payment discount: 2% off the total invoice if paid within 10 days.
+
+### 6. DELIVERY OF GOODS AND SERVICES
+
+- Delivery schedules will be established mutually by both parties.
+- The Suppliers must provide advance notice of any delivery delays or backorders.
+
+### 7. KEY CONTRACTUAL REQUIREMENTS
+
+- The Suppliers must ensure that all goods are ethically sourced and comply with environmental standards.
+- Confidentiality concerning Luxury Resort Brands’ order specifics and business practices must be strictly maintained.
+
+### 8. GUARANTEES AND WARRANTIES
+
+- A minimum of a one-year warranty must cover all goods for defects and functionality issues.
+- Goods damaged upon delivery will be replaced free of charge within 14 days.
+
+### 9. CONTRACT EXTENSIONS
+
+- The contract may be extended for successive one-year terms, provided that both parties agree at least 60 days before the current term expires.
+
+### 10. TERMINATION
+
+- Either party may terminate the contract with 60 days’ notice if any major failures to comply with the terms set forth in this agreement occur.
+
+This contract represents a comprehensive understanding tailored towards a strong working relationship, focusing on quality, efficiency, and mutual benefit. It has been formulated to ensure Luxury Resort Brands receives the highest standard of office supplies, aligned with their prestige as a leading entity in the hospitality industry.
+
+---
+
+**IN WITNESS WHEREOF,** the parties have executed this agreement as of the date first above written.
+
+**Luxury Resort Brands**
+
+Signature: ___________________
+
+Printed Name: _______________
+
+Title: _______________________
+
+Date: _______________________
+
+**ClassicDeskSupplies**
+
+Signature: ___________________
+
+Printed Name: _______________
+
+Title: _______________________
+
+Date: _______________________
+
+(Repeat for Each Supplier)

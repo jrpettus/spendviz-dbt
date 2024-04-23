@@ -1,0 +1,70 @@
+## Contract for Marketing & Advertising Services
+
+### This Agreement is made on April 21, 2022
+
+**BETWEEN:**
+
+**Luxury Resort Brands**, hereafter referred to as “the Client,” a company organized and existing under the laws of the State of [State], with its head office located at:
+
+[Full Address of Luxury Resort Brands]
+
+**AND**
+
+**BrandBloom**, **StrategySavvy**, **SmartSparks**, **TargetedTactics**, **BrandBoosters**, each hereafter referred to as “the Supplier(s),” companies organized and existing under the laws of the State of [State], with their head offices located at:
+
+[Full Addresses of the Suppliers]
+
+### Purpose
+
+The purpose of this agreement is to outline the terms under which the Suppliers will deliver marketing and advertising services to the Client. Given the strength rating of 1, this contract will highlight the basic yet critical aspect of the agreement.
+
+### Scope of Services
+
+The Suppliers will provide a range of marketing and advertising services, including but not limited to brand development, digital advertising, market research, and social media management, designed to enhance the visibility and appeal of Luxury Resort Brands.
+
+### Terms of Payment
+
+Payment terms shall be net 30 days from the receipt of the invoice. Invoices are to be sent monthly by the Supplier(s) for services rendered during the previous month.
+
+### Delivery of Services
+
+The Supplier(s) agree(s) to deliver the services in a professional and timely manner, according to the timelines agreed upon at the start of each project.
+
+### Termination
+
+This agreement may be terminated by either party with a 30-day written notice to the other party.
+
+### Governing Law
+
+This agreement shall be governed by the laws of the State of [State].
+
+### Acknowledgment
+
+IN WITNESS WHEREOF, the parties hereto have executed this agreement as of the date first above written.
+
+**For Luxury Resort Brands:**
+
+[Signature], [Name], [Position]
+
+**For BrandBloom:**
+
+[Signature], [Name], [Position]
+
+**For StrategySavvy:**
+
+[Signature], [Name], [Position]
+
+**For SmartSparks:**
+
+[Signature], [Name], [Position]
+
+**For TargetedTactics:**
+
+[Signature], [Name], [Position]
+
+**For BrandBoosters:**
+
+[Signature], [Name], [Position]
+
+---
+Given the strength score of 1, this contract focuses primarily on basic elements such as scope, payment terms, delivery, termination, and governing law. It lacks detailed provisions for performance metrics, SLAs, incentives, rebates, warranty conditions, contract extensions, and other sophisticated contractual requirements that are critical for a comprehensive strategic sourcing approach.

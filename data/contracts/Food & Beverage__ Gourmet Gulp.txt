@@ -1,0 +1,61 @@
+## Contract for Food & Beverage Supply
+
+**Contract Date**: August 1, 2022  
+**Parties**: This agreement is made between Luxury Resort Brands (hereinafter referred to as "Client") and the suppliers, Succulent Supper, Refreshing Reprieve, and Gourmet Gulp (hereinafter collectively referred to as "Suppliers").
+
+### 1. Scope of Goods and Services
+
+The Suppliers will provide the Client with a variety of goods and services in the Food & Beverage category. This includes, but is not limited to:
+
+- **Succulent Supper**: High-quality, fresh meals ready for consumption, including breakfasts, lunches, dinners, and special dietary options.
+- **Refreshing Reprieve**: A diverse selection of beverages, including soft drinks, juices, bottled water, and coffee and tea products.
+- **Gourmet Gulp**: Premium and gourmet food items, including snacks, appetizers, desserts, and special culinary ingredients.
+
+### 2. Terms and Conditions
+
+**Contract Term**: The initial term of this agreement shall start on August 1, 2022, and shall continue for a period of two (2) years, ending on July 31, 2024, with the option to renew for subsequent one (1) year terms.
+
+**Delivery Expectations**: All goods should be delivered to Client premises within 48 hours of order placement. Suppliers must ensure proper packaging and transportation conditions to maintain product integrity.
+
+**Payment Terms**: Payment shall be made by Client within thirty (30) days of receipt and approval of the goods. Disputed charges shall be communicated within ten (10) days of receipt for resolution.
+
+### 3. Performance Metrics and SLAs
+
+Suppliers must maintain a 98% on-time delivery rate. Failure to meet this metric consistently may result in contract reevaluation. Quality issues reported should not exceed 1% of total items supplied.
+
+### 4. Rebates and Incentives
+
+- Suppliers offer a 2% rebate to the Client on annual spend exceeding $500,000 across all categories.
+- An additional 1% discount is available on orders exceeding $10,000 within a single transaction.
+
+### 5. Guarantees and Warranties
+
+Suppliers guarantee the freshness and quality of all food and beverage items supplied. Any items found to be below standard can be returned at the Supplier's expense for a full refund or replacement.
+
+### 6. Contractual Requirements for Goods and Services
+
+- All food items must meet local food safety and hygiene standards.
+- Beverages should be sourced responsibly, ensuring ethical production practices.
+- Suppliers are required to provide full transparency on the origin and ingredients of the products provided.
+
+### 7. Contract Extensions
+
+This contract will be subject to review three (3) months prior to the expiration date. Consideration for extension will be based on performance, pricing competitiveness, and overall service quality.
+
+This agreement is made with mutual consent of the parties involved and is subjected to the laws and jurisdiction of the location of the Client's operating headquarters.
+
+**Signed**:
+
+__________  
+For Luxury Resort Brands
+
+__________  
+For Succulent Supper
+
+__________  
+For Refreshing Reprieve
+
+__________  
+For Gourmet Gulp
+
+**Date**: August 1, 2022

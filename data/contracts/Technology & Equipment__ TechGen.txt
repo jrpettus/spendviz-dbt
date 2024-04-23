@@ -1,0 +1,90 @@
+**CONTRACT AGREEMENT**
+
+**Between**
+
+**Luxury Resort Brands**  
+Headquarters: 88 Resort Avenue, Sunshine Bay, FL  
+**And**  
+**Quantum Equipment Solutions**  
+Office: 4022 Tech Park Blvd, Silicon Valley, CA  
+
+---
+
+**Effective Date**: March 15, 2023
+
+**Expiration Date**: March 14, 2025
+
+**This Contract Agreement** is made and entered into by and between Luxury Resort Brands, subsequently referred to as “the Client”, and Quantum Equipment Solutions, subsequently referred to as “the Supplier”, to set forth the terms and conditions under which Technology & Equipment will be provided.
+
+1. **Scope of Services:**
+
+   The Supplier agrees to provide the Client with the following goods and services under the category of Technology & Equipment: 
+    
+    - Latest Hospitality Management Software
+    - Digital Security Equipment (e.g., CCTV, Biometric Access Systems)
+    - Audio and Visual Systems for entertainment and conference rooms
+    - Wi-Fi infrastructure and smart room technology solutions
+    - Energy-efficient lighting and climate control systems
+  
+2. **Rebates for Spend Thresholds:**
+
+   - For expenditures exceeding $100,000 within a fiscal year, the Client will receive a rebate of 2% of the total spend above this threshold.
+   
+3. **Incentives:**
+   
+   - For early renewal of the contract at least six months before the expiration, the Supplier offers a discount of 5% on the next year’s service fees.
+   - Volume-based pricing reductions for orders that significantly exceed the yearly forecast.
+
+4. **Terms and Conditions:**
+
+   - This Agreement may be amended only by mutual agreement of both parties in writing.
+   
+5. **Performance Metrics and SLAs (Service Level Agreements):**
+
+   - Supplier must ensure 99.5% uptime for all provided digital networks and systems.
+   - Response time for any technical issues must not exceed 4 hours during business days.
+   - Equipment failure rate must not exceed 2% annually.
+   
+6. **Payment Terms:**
+
+   - Payments by the Client will be made within 30 days of receiving the invoice from the Supplier.
+   - Late payments will incur an interest rate of 1.5% monthly.
+   
+7. **Expectations for Delivery of Goods and Services:**
+
+   - All equipment must be delivered and installed within the agreed timelines, as specified in purchase orders.
+   - Supplier is to provide training for the Client’s staff on the operation of the equipment within 14 days of installation.
+   
+8. **Key Contractual Requirements:**
+
+   - Supplier is responsible for obtaining all necessary permits and ensuring compliance with all local laws and regulations.
+   - Supplier must carry liability insurance covering all goods and services provided.
+
+9. **Guarantees and Warranties:**
+
+   - All equipment and technology solutions provided come with a minimum one-year manufacturer warranty.
+   - Supplier to offer service warranties, including free maintenance and repair, for a period of 12 months post-installation.
+   
+10. **Contract Extensions:**
+
+    - This contract allows for a one-time extension of an additional year, to be mutually agreed upon at least three months before the current contract expiration date.
+   
+**Termination:**   
+Both parties reserve the right to terminate this contract with a 60-day written notice if the terms and conditions are not met.
+
+**Signatures:**
+
+------------------------   
+**For Luxury Resort Brands**   
+Name:   
+Title:   
+Date:
+
+------------------------   
+**For Quantum Equipment Solutions**   
+Name:   
+Title:   
+Date:   
+
+---  
+This contract serves as a comprehensive understanding between Luxury Resort Brands and Quantum Equipment Solutions regarding the provision of Technology & Equipment, prepared with a considerable degree of attention to strategic sourcing elements, albeit not at maximum strength due to the omission of a few less critical elements.

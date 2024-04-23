@@ -1,0 +1,65 @@
+### Contract Agreement between Luxury Resort Brands and EcoServ
+
+#### Contract ID: ECB-12345-LRB
+#### Effective Date: March 1, 2022
+#### Expiration Date: March 1, 2025
+
+This contract is made between Luxury Resort Brands (hereinafter referred to as "Client") and EcoServ (hereinafter referred to as "Supplier"), collectively referred to as the "Parties."
+
+#### Preamble:
+Whereas, the Client is engaged in the business of operating luxury resorts and desires to ensure the provision of top-notch utilities and services for efficient, sustainable, and eco-friendly operations.
+
+Whereas, the Supplier specializes in providing comprehensive utilities and services including, but not limited to, renewable energy solutions, water conservation systems, waste management, and recycling services tailored for the hospitality industry, with a commitment to sustainability and environmental stewardship.
+
+#### Now, Therefore, the Parties Hereby Agree as Follows:
+
+1. **Services and Goods Provided:** The Supplier will provide the Client with green energy solutions, water-saving fixtures, and comprehensive waste management and recycling services customized to meet the Client's luxury standards and sustainability goals.
+
+2. **Contract Terms:**
+    - This contract shall be in effect for a term of three years from the effective date.
+    - Either party may request renegotiation or extension six months prior to the expiration date, subject to mutual agreement.
+
+3. **Rebates:**
+    - The Client is eligible for a rebate of 2% on achieving an annual spend threshold of $500,000 with the Supplier.
+    - Additional tiered rebates are available for higher spend thresholds as negotiated and agreed upon separately.
+
+4. **Incentives:**
+    - The Supplier will provide a 5% discount on the next year’s service for achieving Zero Waste Certification.
+    - An early payment discount of 1.5% of the invoice amount if payment is made within 10 days of invoice receipt.
+
+5. **Performance Metrics and SLAs:**
+    - The Supplier guarantees a 98% uptime for all supplied utility services.
+    - Response time for emergency services and repairs must not exceed 24 hours.
+    - Routine service inquiries must be addressed within 48 hours of notification.
+
+6. **Payment Terms:**
+    - The Client agrees to pay all invoiced amounts within 30 days of invoice receipt.
+    - Disputed invoices must be reported within 15 days of receipt, detailing reasons for dispute and proposed resolution.
+
+7. **Expectations for Delivery of Goods and Services:**
+    - All installations and initial service setups are to be completed within agreed-upon timelines.
+    - Continuous improvement in service delivery through adoption of new technologies and practices beneficial to both parties.
+
+8. **Guarantees and Warranties:**
+    - The Supplier guarantees the performance of all installed equipment for a period of five years.
+    - A warranty covers all services against deficiencies and failures attributable to improper provision or installation, valid for one year from the service delivery date.
+
+9. **Termination:**
+    - This contract may be terminated by either party upon 90 days written notice for breach of contract terms, with an opportunity to cure the breach provided.
+
+10. **Confidentiality and Non-Disclosure:**
+    - Both parties agree to maintain confidentiality regarding contract specifics and proprietary information shared during the term of the agreement and for five years thereafter.
+
+This agreement represents the full understanding between the Parties concerning the subject matter herein and supersedes all previous agreements, whether oral or written. This contract may only be amended or modified by a written document duly signed by authorized representatives of both Parties.
+
+#### Signatures:
+
+For Luxury Resort Brands:  
+Name:  
+Title:  
+Date:
+
+For EcoServ:  
+Name:  
+Title:  
+Date:

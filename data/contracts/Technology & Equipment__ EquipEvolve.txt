@@ -1,0 +1,77 @@
+**CONTRACT AGREEMENT**
+
+This Contract Agreement ("Agreement") is entered into as of October 15, 2022, by and between Luxury Resort Brands ("Buyer") and a consortium of suppliers consisting of TechGen, Quantum Equipment Solutions, EquipEvolve, and TechDesigns (collectively "Suppliers") regarding the provision of technology and equipment.
+
+**1. Scope of Goods and Services:**
+
+The Suppliers shall provide the Buyer with the following goods and services in the category of Technology & Equipment:
+
+- TechGen: Latest computing and networking solutions, including servers, routers, and cybersecurity services.
+- Quantum Equipment Solutions: State-of-the-art audiovisual systems and smart room technologies for guest accommodations and conference facilities.
+- EquipEvolve: Fitness and recreational technology equipment including smart gym equipment and virtual reality entertainment systems.
+- TechDesigns: Innovative interior and exterior lighting solutions, along with bespoke technological design services for custom guest experiences.
+
+**2. Contract Terms and Conditions:**
+
+- **Duration:** This Agreement shall commence on October 15, 2022, and shall continue in full force and effect until October 14, 2025, subject to early termination as provided herein.
+- **Renewal:** This Agreement may be extended for additional one-year terms, subject to negotiation of terms at least 90 days prior to the end of the current term.
+
+**3. Payment Terms:**
+
+- Payment for goods and services shall be due 30 days from the invoice date. Invoices are to be provided monthly by the Suppliers.
+- A 2% discount will be applied to payments made within 10 days of the invoice date.
+
+**4. Rebates and Incentives:**
+
+- Suppliers will provide a 5% rebate on annual spend exceeding $500,000.
+- Quarterly performance bonuses are available for exceeding SLA metrics by 10% or more, subject to a maximum of $10,000 per quarter.
+
+**5. Service Level Agreements (SLAs) and Performance Metrics:**
+
+- Suppliers commit to a 98% uptime for all provided technology solutions.
+- Response time for any support requests shall not exceed 4 hours, with a resolution time not exceeding 24 hours.
+- Quarterly reviews will be conducted to evaluate performance metrics and SLAs.
+
+**6. Guarantees and Warranties:**
+
+- Suppliers guarantee all equipment against defects in materials and workmanship for a period of three years from the date of purchase.
+- Extended warranties and maintenance plans are available for an additional cost.
+
+**7. Delivery Expectations:**
+
+- All goods shall be delivered within 30 days of order unless otherwise specified.
+- Suppliers are responsible for the installation of technology and equipment where applicable, to be completed within the agreed timeline.
+
+**8. Key Contractual Requirements:**
+
+- Suppliers agree to comply with all local, state, and federal laws and regulations pertaining to the provision of technology and equipment.
+- Confidentiality of all information pertaining to Luxury Resort Brands’ operations and guest information must be maintained.
+
+**9. Termination:**
+
+- Either party may terminate this Agreement upon 90 days' written notice for breach of contract, with an opportunity to cure the breach within a 30-day notice period.
+- Immediate termination is applicable in the event of insolvency, bankruptcy, or material breach of SLAs.
+
+This Agreement represents the full understanding between Luxury Resort Brands and the Suppliers concerning the provision of goods and services for technology and equipment. No amendment or modification of this Agreement shall be effective unless in writing and signed by both parties.
+
+**IN WITNESS WHEREOF,** the parties hereto have executed this Agreement as of the date first above written.
+
+**Luxury Resort Brands:**
+
+Signature: ___________________________  
+
+Name: ___________________________  
+
+Title: ___________________________  
+
+Date: ___________________________  
+
+**Suppliers (TechGen, Quantum Equipment Solutions, EquipEvolve, TechDesigns):**
+
+Signature: ___________________________  
+
+Name: ___________________________  
+
+Title: ___________________________  
+
+Date: ___________________________  

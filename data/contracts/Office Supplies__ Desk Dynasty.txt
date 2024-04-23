@@ -1,0 +1,64 @@
+### Contract for the Provision of Office Supplies
+
+#### BETWEEN: Luxury Resort Brands ("the Buyer")
+
+AND
+
+#### CLASSICDESKSUPPLIES, DESK DYNASTY, LUXEDESKSUPPLIES, BOLD BINDER ("the Suppliers")
+
+This Contract is entered into effective the 10th of May, 2022.
+
+### 1. Purpose
+
+The purpose of this Contract is to outline the terms and conditions under which the Suppliers will provide office supplies to Luxury Resort Brands.
+
+### 2. Products and Services
+
+The Suppliers will provide the following goods and services: desktop accessories, writing instruments, binders and folders, desk organizers, and other miscellaneous office supplies. Specific brands and items will be selected based on the current needs and preferences of Luxury Resort Brands.
+
+### 3. Terms and Payment
+
+- **Payment Terms:** Luxury Resort Brands shall pay the Suppliers within 60 days of receiving an invoice for the goods supplied.
+- **Pricing:** Prices for goods shall be as per the Suppliers' standard pricing at the time of the order, subject to availability.
+
+### 4. Delivery
+
+- **Delivery of Goods:** The Suppliers will deliver goods to Luxury Resort Brands within 14 days of order placement. Delays beyond the control of the Suppliers will be communicated promptly to Luxury Resort Brands.
+
+### 5. Termination
+
+This Contract will be effective until the 31st of December, 2022, and may be terminated by either party with a notice period of 30 days.
+
+### 6. General Terms
+
+- **Governing Law:** This Contract shall be governed by the laws of the state in which Luxury Resort Brands operates.
+- **Dispute Resolution:** Any disputes arising under this Contract will be addressed through negotiation between the parties.
+
+This Contract has been executed as of the date first above written.
+
+By: _____________________            
+Name:                    
+Title:                   
+For Luxury Resort Brands
+
+By: _____________________            
+Name:                    
+Title:                  
+For ClassicDeskSupplies
+
+By: _____________________            
+Name:                    
+Title:                  
+For Desk Dynasty
+
+By: _____________________            
+Name:                    
+Title:                  
+For LuxeDeskSupplies
+
+By: _____________________            
+Name:                    
+Title:                  
+For BoldBinder
+
+Given the defined strength of 1, this contract provides a basic framework with minimal detailed terms, focusing primarily on the purpose, products, and services, payment terms, and general conditions without in-depth provisions for rebates, incentives, performance metrics, SLAs, guarantees, warranties, or contract extensions.
