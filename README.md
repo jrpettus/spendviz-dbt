@@ -30,27 +30,27 @@ This project contains the following key flows:
 - Downstream users get a single language to power insights using Snowflake Cortex
 - Efficient orchestration and prevention of duplicate Cortex processing with incremental models
 
-<img src="https://github.com/jrpettus/spendviz-dbt/blob/main/dbt/assets/Cortex%20Translations.jpg" width=60% height=60% >
+<img src="https://github.com/jrpettus/spendviz-dbt/blob/main/dbt/assets/Cortex%20Translations.jpg" width=70% height=70% >
 
 ## Item Classification with Cortex
 **Business Value:**
 - Downstream users get classification into spend to power insights using Snowflake Cortex
 - Efficient orchestration and prevention of duplicate Cortex processing with incremental models
 
-<img src="https://github.com/jrpettus/spendviz-dbt/blob/main/dbt/assets/Cortex%20Item%20Classification.jpg" width=60% height=60% >
+<img src="https://github.com/jrpettus/spendviz-dbt/blob/main/dbt/assets/Cortex%20Item%20Classification.jpg" width=70% height=70% >
 
 ## Vector Database Loading with dbt and Snowflake Container Services
 **Business Value:**
 - Key concepts from large unstructured documents turned into structured outputs for actionable supplier insights
 - dbt efficiently orchestrates the data workflow
 
-<img src="https://github.com/jrpettus/spendviz-dbt/blob/main/dbt/assets/Contract%20Vector%20Database%20Loading.jpg" width=60% height=60% >
+<img src="https://github.com/jrpettus/spendviz-dbt/blob/main/dbt/assets/Contract%20Vector%20Database%20Loading.jpg" width=80% height=80% >
 
 ## Retrieval Augmented Generation with dbt and Snowflake Container Services
 **Business Value:**
 - Key concepts from large unstructured documents turned into structured outputs for actionable supplier insights
 - dbt efficiently orchestrates the data workflow to facilitate retrieval augmented generation
 
-<img src="https://github.com/jrpettus/spendviz-dbt/blob/main/dbt/assets/RAG.jpg" width=67% height=67% >
+<img src="https://github.com/jrpettus/spendviz-dbt/blob/main/dbt/assets/RAG.jpg" width=80% height=80% >
 
 
