@@ -13,6 +13,7 @@ with
     processed as (
         select
             *,
+            -- loads the documents into the vector database using the retieval service
             procure_agent.public.load_documents(file_name) as contract_load_status,
             current_timestamp() as processed_at
         from contracts
