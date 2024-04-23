@@ -1,9 +1,12 @@
 # LLM-Powered Workflows with Snowflake & dbt
 
-This project is centered on a procurement-themed business case for a luxury resort company, which has resort properties across the USA and now in France. Using dbt & Snowflake, a data pipeline is demonstrated to show how:
+This project is centered on a procurement-themed business case for a luxury resort company, which has resort properties across the USA and now in France. Using dbt & Snowflake, a data pipeline is demonstrated to show how we can:
 
-- Snowflake Cortex AI features turn text into meaningful insights for supplier management and strategic sourcing
-- dbt orchestrates the workflow for efficient processing
+- Leverage Snowflake for secure and scalable platform to deliver the entire data pipeline
+- Use Snowflake Cortex AI features to turn text and unstructured documents into meaningful insights that drive actions 
+- Bring LLMs to where the data reside
+- dbt orchestrates the workflow while providing documentation, code colloboration and resusability, job scheduling, CI/CD, and a host of other development benefits
+- dbt incremental models enable streamlined ways to build models relying on Cortex functionality
 
 ## Key Flows
 
