@@ -23,12 +23,9 @@ with
 
                     {description}
                     ',
+                        -- retrieves the relevant contract context
                         procure_agent.public.retrieve_context(
-                            concat(
-                                'what are the payment term discounts',
-                                ' | ',
-                                supplier_name
-                            )
+                            concat('what are the payment terms', ' | ', supplier_name)
                         )
                     )
                 ),
@@ -47,6 +44,7 @@ with
 
                     {description}
                     ',
+                        -- retrieve the relevant context
                         procure_agent.public.retrieve_context(
                             concat(
                                 'What are the rebate offerings for the supplier?',
